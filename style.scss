@@ -91,15 +91,15 @@ p {
 
 @keyframes float {
 	0% {
-		text-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		text-shadow: 0 5px 15px rgba(0,0,0,0.6);
 		transform: translateY(10px);
 	}
 	50% {
-		text-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		text-shadow: 0 25px 15px rgba(0,0,0,0.2);
 		transform: translateY(-10px);
 	}
 	100% {
-		text-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		text-shadow: 0 5px 15px rgba(0,0,0,0.6);
 		transform: translateY(10px);
 	}
 }
