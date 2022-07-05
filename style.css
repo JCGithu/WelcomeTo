@@ -36,7 +36,7 @@ body {
 
 #bg2 {
   background-image: url(./map.jpg);
-  filter: sepia(0.7) blur(3px) grayscale(0.5) opacity(0.5);
+  filter: sepia(0.7) blur(3px) grayscale(0.5) opacity(0.3);
   z-index: 1;
 }
 
@@ -71,6 +71,7 @@ h3 {
   font-family: "Courier New", Courier, monospace;
   font-size: 2.5rem;
   text-decoration: underline;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 p {
@@ -85,6 +86,7 @@ p {
   color: white;
   border-width: 3px;
   border-style: solid;
+  box-shadow: 10px 15px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(50px) skew(1deg, 10deg);
   background: radial-gradient(circle at 50% 50%, #1c9730, rgb(28, 151, 48), #28b13f), url("data:image/svg+xml,%3Csvg viewBox='0 0 1920 1080' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }

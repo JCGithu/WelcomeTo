@@ -40,7 +40,7 @@ body{
 
 #bg2{
   background-image: url(./map.jpg);
-  filter: sepia(0.7) blur(3px) grayscale(0.5) opacity(0.5);
+  filter: sepia(0.7) blur(3px) grayscale(0.5) opacity(0.3);
   z-index: 1;
 }
 
@@ -74,6 +74,7 @@ h3{
   font-family:'Courier New', Courier, monospace;
   font-size: 2.5rem;
   text-decoration: underline;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 p {
@@ -86,6 +87,7 @@ p {
   color: white;
   border-width: 3px;
   border-style: solid;
+  box-shadow: 10px 15px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(50px) skew(1deg, 10deg);
   background: 
 	radial-gradient(circle at 50% 50%, #1c9730, rgb(28, 151, 48), #28b13f),
