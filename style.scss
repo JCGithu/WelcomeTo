@@ -57,7 +57,7 @@ body{
 h1 {
   text-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
   transform: translateY(10px);
-  font-size: 5rem;
+  font-size: 6rem;
   color: white;
   animation: float 6s ease-in-out infinite;
   font-family: 'America Bold';
@@ -67,6 +67,8 @@ h1 {
 
 h3{
   color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 2.5rem;
   text-decoration: underline;
 }
 
