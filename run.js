@@ -4,6 +4,7 @@ const client = new tmi.Client({
 
 let Name = document.getElementById('username');
 let tagline = document.getElementById('quote');
+let rooting = document.querySelector(':root');
 
 client.on("connected", () => console.log('Reading from Twitch! ✅'));
 client.connect();
@@ -14,5 +15,6 @@ client.on('message', (channel, tags, message, self) => {
   tagline.innerText = `"${message}"`;
   if (tags.color){
     document.body.style.backgroundColor = tags.color;
+    Name.style.setProperty('--nameCol', tags.color);
   }
 });
